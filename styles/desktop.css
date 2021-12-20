@@ -1,0 +1,73 @@
+:root {
+  /* Primary colors */
+  --main-background-color: hsl(233, 47%, 7%);
+  --card-background-color: hsl(244, 38%, 16%);
+  --accent-color: hsl(277, 64%, 61%);
+  --overlay-color: #a458d1;
+
+  /* Neutral colors */
+
+  --heading-and-stats-color: hsl(0, 0%, 100%);
+  --main-paragraph-color: hsla(0, 0%, 100%, 0.75);
+  --stat-headings-color: hsla(0, 0%, 100%, 0.6);
+
+  /* Typography */
+  --font-size-small: 1.6rem;
+  --font-size-medium: 2.4rem;
+  --font-size-large: 3.4rem;
+}
+
+main {
+  margin: 5%;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px 0 0 10px;
+}
+
+.header-image {
+  order: 1;
+  width: 100%;
+  min-height: 35vh;
+  background-color: var(--overlay-color);
+  background-image: url("../images/image-header-desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  border-radius: 0 10px 10px 0;
+}
+
+.container {
+  padding: 8rem 12rem 6rem 5.4rem;
+  text-align: left;
+  width: 550px;
+}
+
+.container h1 {
+  font-size: var(--font-size-large);
+  margin-bottom: 2.4rem;
+}
+
+.container p {
+  font-size: var(--font-size-small);
+  margin-bottom: 7rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats div {
+  margin-bottom: 0;
+}
+
+.stats .numbers {
+  font-size: var(--font-size-medium);
+}
+
+.stats .heading {
+  font-size: 1.2rem;
+}
