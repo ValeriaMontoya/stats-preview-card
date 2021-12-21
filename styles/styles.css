@@ -67,7 +67,7 @@ main {
   color: var(--heading-and-stats-color);
   font-size: var(--font-size-large);
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
 }
 
 .container h1 span {
@@ -76,14 +76,14 @@ main {
 
 .container p {
   color: var(--main-paragraph-color);
-  margin-bottom: 4rem;
+  margin-bottom: 40px;
   font-size: var(--font-size-medium);
-  line-height: 2.6rem;
+  line-height: 26px;
   font-weight: 400;
 }
 
 .stats div {
-  margin-bottom: 3rem;
+  margin-bottom: 30px;
 }
 
 .stats div:last-of-type {
@@ -91,7 +91,7 @@ main {
 }
 
 .stats .numbers {
-  margin-bottom: 0.6rem;
+  margin-bottom: 6px;
   font-weight: 700;
   color: var(--heading-and-stats-color);
   font-size: var(--font-size-large);
